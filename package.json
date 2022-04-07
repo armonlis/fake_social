@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/armonlis/fake_social/issues"
   },
-  "homepage": "https://github.com/armonlis/fake_social#readme"
+  "homepage": "https://github.com/armonlis/fake_social#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }

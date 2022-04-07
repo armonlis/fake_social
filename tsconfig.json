@@ -1,0 +1,14 @@
+{ 
+  "include": ["./src/ts/"],
+  "exclude": ["./node_modules/", "./dist/"],
+  "compilerOptions": {
+    "strict": true,
+    "module": "ES6",
+    "outDir": "./src/js",
+    "jsx": "preserve",
+    "target": "ES6"
+  },
+  "watchOptions": {
+    "excludeDirectories": ["./node_modules/", "./dist/", "./public/"],
+  }
+}
