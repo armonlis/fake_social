@@ -1,9 +1,11 @@
 { 
-  "include": ["./src/ts/"],
-  "exclude": ["./node_modules/", "./dist/"],
+  "include": ["src/ts/"],
+  "exclude": ["node_modules/", "dist/"],
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "strict": true,
     "module": "ES6",
+    "moduleResolution": "Node",
     "outDir": "./src/js",
     "jsx": "preserve",
     "target": "ES6"
