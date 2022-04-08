@@ -1,4 +1,6 @@
 const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
+const CleanPlugin = require("clean-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "src/js/index.js"),
@@ -21,5 +23,11 @@ module.exports = {
         loader: "babel-loader"
       }
     ]
-  }
+  },
+  plugins: [
+    new CopyPlugin({
+      patterns: [{ from: "./public", to: "./" }]
+    }),
+    new CleanPlugin()
+  ]
 };
