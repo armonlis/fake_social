@@ -1,6 +1,6 @@
 const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
-const CleanPlugin = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "src/js/index.js"),
@@ -28,6 +28,6 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: "./public", to: "./" }]
     }),
-    new CleanPlugin()
+    new CleanWebpackPlugin()
   ]
 };

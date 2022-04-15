@@ -1,3 +1,9 @@
 import React from "react";
-const App = <h1>HELLO!!!</h1>;
+import StyledApp from "./style";
+import { Header } from "./header/header";
+import { Nav } from "./nav/nav";
+const App = <StyledApp>
+    <Header />
+    <Nav />
+  </StyledApp>;
 export default App;
