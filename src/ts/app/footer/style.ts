@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import colors from "../../constants/style-colors";
 
-export default styled.nav`
+export default styled.footer`
   width: 100%;
   height: 10vh;
-  background-color: ${colors.green};
+  background-color: ${colors.blue}
 `;
