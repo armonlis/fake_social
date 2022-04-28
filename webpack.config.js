@@ -18,15 +18,17 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.jsx/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
         loader: "babel-loader"
-      }
+      },
     ]
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: "./public", to: "./" }]
+      patterns: [{ from: "./public/index.html", to: "./index.html" },
+      { from: "./public/img/", to: "./img" }
+    ]
     }),
     new CleanWebpackPlugin()
   ]

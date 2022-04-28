@@ -1,3 +1,6 @@
 import React from "react";
 import StyledHeader from "./style";
-export const Header = () => <StyledHeader data-testid="header"/>;
+import HeaderLogo from "./header_logo";
+export const Header = () => <StyledHeader data-testid="header">
+  <HeaderLogo />  
+</StyledHeader>;

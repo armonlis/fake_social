@@ -20,7 +20,6 @@ describe("The app's structure test:", () => {
   test("There is the footer in the App:", () => {
     render(App);
     const footer = screen.getByTestId("footer");
-    console.log("FOOTER>>>", footer)
     expect(footer).not.toBe(null);
   });
 });
