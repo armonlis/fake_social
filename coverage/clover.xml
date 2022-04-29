@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1650270076178" clover="3.2.0">
-  <project timestamp="1650270076178" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="5" files="9" classes="9"/>
+<coverage generated="1651136448725" clover="3.2.0">
+  <project timestamp="1651136448726" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="12" coveredelements="12" complexity="0" loc="7" ncloc="7" packages="6" files="12" classes="12"/>
     <package name="app">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.tsx" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/app.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
       <file name="style.ts" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/style.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="app.header">
+    <package name="app.footer">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="header.tsx" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/header/header.tsx">
+      <file name="footer.tsx" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/footer/footer.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="4" type="stmt"/>
+      </file>
+      <file name="style.ts" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/footer/style.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="app.header">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="header.tsx" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/header/header.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="header_logo.tsx" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/header/header_logo.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
       </file>
       <file name="style.ts" path="/home/armonius/prog/personal_page/fake_social/src/ts/app/header/style.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
