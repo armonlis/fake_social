@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import App from "../src/ts/app/app"
+import App from "../src/js/app/app"
 
 describe("The app's structure test:", () => {
   test("There is the header in the App:", () => {
